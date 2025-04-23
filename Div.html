@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+</head>
+<style>
+    .box {
+        text-align: center;
+        background-color: lightblue;padding: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .box1 {
+        text-align: center;
+        background-color: lightgreen;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .box2 {
+        text-align: center;
+        background-color: lightgoldenrodyellow;
+        padding: 10px;
+    
+    }
+
+    .centers {
+        text-align: center;
+        background-color: lightslategray;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .head1 {
+        background: navy; color: white; padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+
+    .head2 {
+        background-color: lightcoral; color: white; padding: 10px;
+        margin-top: 20px;
+       text-align: center;
+        
+    }
+
+    .head3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        background: gray; color: white; padding: 10px;
+        
+    }
+
+    .button {
+        text-align: center;
+        display: inline-flex;
+         background: orange; 
+         padding: 10px 20px; 
+         color: white; 
+         cursor: pointer;
+         align-content: center;
+         margin-left: 46%;
+         margin-top: 20px;
+           
+
+    }
+
+
+        
+</style>
+
+
+<body>
+    <div class="box" >This is box</div>
+
+    <div class="box1">
+        <div class="box2">This is box1</div>
+    </div>
+
+    <div class="centers"> i'm centered </div>
+
+    <div class="head1">Head</div>
+    <div class="head2">Main Content here </div>
+    <div class="head3">Footer</div> 
+
+    <div style="background: lightgray; padding: 20px; text-align: center; ">
+        Outer Div
+        <div style="background: white; padding: 10px; margin-top: 10px;">
+          Inner Div
+        </div>
+      </div>
+
+    <div class="button">Click me </div>
+
+
+    <div style="display: flex; justify-content: space-around; padding-top: 10px;">
+        <div style="background: pink; padding: 20px;margin-bottom: 20px;">Box 1</div>
+        <div style="background: lightblue; padding: 20px;margin-bottom: 20px;">Box 2</div>
+        <div style="background: lightyellow; padding: 20px;margin-bottom: 20px;">Box 3</div>
+      </div>
+
+      <div style="border: 2px solid #333; padding: 20px; box-shadow: 2px 2px 20px rgba(0,0,0,0.2); padding: top 20px; text-align: center;">
+        Stylish Box
+      </div>
+
+
+      <div style="border: 1px solid #ccc; padding: 15px; width: 250px;">
+        <img src="Cars_2006.jpg" style="width: 100%;">
+        <h3 style="text-align: center;">Cars</h3>
+        <p>This is a simple card using a div.</p>
+      </div>
+
+
+      <div style="padding: 30px;
+       background: linear-gradient(to right, #ff7e5f, #feb47b);
+        color: white;
+        text-align: center; 
+        margin-top: 20px;">
+        Beautiful Gradient Background
+      </div>
+
+      <div style="width: 200px; height: 100px; background: skyblue; transition: 0.3s; text-align: center; margin-top: 20px;"
+     onmouseover="this.style.background='steelblue'"
+     onmouseout="this.style.background='skyblue'">
+  Hover over me!
+</div>
+
+
+<div style="background: #ffff88; margin-top: 20px; width: 200px; font-family: cursive; box-shadow: 5px 5px 10px #ccc; transform: rotate(-2deg);">
+    Don’t forget to code today!
+  </div>
+
+  <div style="background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(8px); padding: 20px; border-radius: 10px; color: white; border: 1px solid rgba(255, 255, 255, 0.3); width: 300px;">
+    Glass-like div effect!
+  </div>
+
+  <div onclick="document.getElementById('hidden').style.display='block'" style="cursor: pointer; background: coral; padding: 10px; color: white;">
+    Click to show more...
+  </div>
+  <div id="hidden" style="display: none; padding: 10px; background: lightcoral;">
+    🎉 Surprise! Here's some hidden content.
+  </div>
+
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px; margin-top: 20px;">
+    <div style="background: lavender; padding: 20px;">1</div>
+    <div style="background: lavender; padding: 20px;">2</div>
+    <div style="background: lavender; padding: 20px;">3</div>
+    <div style="background: lavender; padding: 20px;">4</div>
+  </div>
+
+
+  <div style="display: flex; margin-top: 20px;">
+    <div style="width: 50px; height: 50px; background: #ff6b6b;margin-right: 20px;"></div>
+    <div style="width: 50px; height: 50px; background: #feca57;margin-right: 20px;"></div>
+    <div style="width: 50px; height: 50px; background: #1dd1a1;margin-right: 20px;"></div>
+    <div style="width: 50px; height: 50px; background: #54a0ff;margin-right: 20px;"></div>
+  </div>
+
+  <div style="display: inline-block; background: crimson; color: white; padding: 5px 10px; border-radius: 50px; margin-top: 20px;">
+    New!
+  </div>
+
+
+  <div style="max-width: 300px; padding: 15px; background: #fff3cd; border: 1px solid #ffeeba; border-radius: 10px; margin-top: 20px;">
+    <strong>⚠️ Alert:</strong> You have 2 unread messages.
+  </div>
+
+
+  <div style="max-width: 250px; background: #e0f7fa; padding: 10px 15px; border-radius: 20px; margin: 10px 0;">
+    Hello! This is a chat message.
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+      
+      
+      
+    
+      
+      
+        
+    
+    
+</body>
+</html>
